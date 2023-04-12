@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Fildset</title>
+</head>
+
+<body>
+    <header>
+        <div class="topo">
+            <p>Revista</p>
+        </div>
+    </header>
+    <main>
+        <h2>Cadastro</h2>
+
+        <p>Estamos lançando uma nova revista e enviaremos o<br>
+            primeiro exemplar grátis para todos que se cadastrarem<br>
+            hoje no site.</p>
+        <form action="https://www.devmedia.com.br/codigos/formularios/aula8/"">    
+            <fieldset>
+                <legend>Dados de contato</legend>
+
+                <div>
+                    <label>Nome:</label><br>
+                    <input placeholder=" Digite seu nome completo" type="text" name="nome" />
+        </div>
+        <div>
+            <label>Email:</label><br>
+            <input placeholder="exemplo@email.com" type="email" name="email" />
+        </div>
+        <div>
+            <label>Telefone:</label><br>
+            <input placeholder="(xx)x xxxx-xxxx" type="tel" name="telefone" />
+        </div>
+        </fieldset>
+        <fieldset>
+
+            <legend>Dados da entrega</legend>
+
+            <div>
+                <label>Endereço:</label><br>
+                <input placeholder="Rua, Avenida, Travessa..." type="text" name="endereco" />
+            </div>
+            <div>
+                <label>Número:</label><br>
+                <input type="number" name="numero-casa" />
+            </div>
+            <div>
+                <label>Complemento:</label><br>
+                <input type="text" name="complemento" />
+            </div>
+
+        </fieldset>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </main>
+
+    <footer>
+        © Copyright 2022 - Revista
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Questionário - tipo de jogos favoritos</title>
+</head>
+
+<body>
+    <header>
+        <p>Questionário</p>
+    </header>
+    <main>
+        <section class="container">
+            <h3>Questionário</h3>
+            <p>Responda ao questionário abaixo marcando as opções que<br>
+                correspondem as suas preferências por jogos.</p>
+            <form action="">
+                Quais plataformas de jogos você utiliza?<br><br>
+                <input type="checkbox" id="checkbox-xbox" name="plataforma[]" value="xbox">
+                <label for="checkbox-xbox">Xbox</label><br>
+                <input type="checkbox" id="checkbox-playstation" name="plataforma[]" value="playstation">
+                <label for="checkbox-playstation">PlayStation</label><br>
+                <input type="checkbox" id="checkbox-switch" name="plataforma[]" value="switch">
+                <label for="checkbox-switch">Switch</label><br>
+                <input type="checkbox" id="checkbox-stadia" name="plataforma[]" value="stadia">
+                <label for="checkbox-stadia">Stadia</label><br>
+                <input type="checkbox" id="checkbox-pc" name="plataforma[]" value="pc">
+                <label for="checkbox-pc">PC</label><br><br>
+                Quais seus gêneros de jogos preferidos?<br><br>
+                <input type="checkbox" id="checkbox-acao" name="genero[]" value="acao">
+                <label for="checkbox-acao">Ação</label><br>
+                <input type="checkbox" id="checkbox-aventura" name="genero[]" value="aventura">
+                <label for="checkbox-aventura">Aventura</label><br>
+                <input type="checkbox" id="checkbox-plataforma" name="genero[]" value="plataforma">
+                <label for="checkbox-plataforma">Plataforma</label><br>
+                <input type="checkbox" id="checkbox-rpg" name="genero[]" value="rpg">
+                <label for="checkbox-rpg">RPG</label><br>
+                <input type="checkbox" id="checkbox-tiro" name="genero[]" value="tiro">
+                <label for="checkbox-tiro">Tiro</label><br>
+                <input type="checkbox" id="checkbox-corrida" name="genero[]" value="corrida">
+                <label for="checkbox-corrida">Corrida</label><br><br>
+                <button type="submit">Enviar Questionário</button>
+            </form>
+        </section>
+    </main>
+    <footer>© Copyright 2022 - Questionário</footer>
+</body>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>MedCompany - Formulário de exame</title>
+</head>
+
+<body>
+    <header>
+        <p>MedCompany</p>
+    </header>
+    <main>
+        <section class="container">
+            <h3>Formulário de exame</h3>
+            <p>Preencha o formulário abaixo com suas informações.</p>
+            <form action="">
+                <label>Nome:</label><br><br>
+                <input class="input-width" type="text" name="nome"><br><br>
+                <label>Data de Nascimento:</label><br><br>
+                <input class="input-width" type="date" max="2004-12-31" name="data-de-nascimento" ><br><br>
+                <label>Email:</label><br><br>
+                <input class="input-width" placeholder="exemplo@email.com" type="email" name="email"><br><br><br>
+                Você possui tatuagem?<br><br>
+                <input type="radio" id="tatuagem-sim" name="tatuagem" value="sim">
+                <label for="tatuagem-sim">Sim</label><br>
+                <input type="radio" id="tatuagem-nao" name="tatuagem" value="nao">
+                <label for="tatuagem-nao">Não</label><br><br>
+                Ultima vez que doou sangue?<br><br>
+                <input type="radio" id="ultimos-6-meses" name="data" value="ultimos-6-meses">
+                <label for="ultimos-6-meses">Nos últimos 6 meses</label><br>
+                <input type="radio" id="ha-1-ano-ou-mais" name="data" value="ha-1-ano-ou-mais">
+                <label for="ha-1-ano-ou-mais">Há 1 ano ou mais</label><br>
+                <input type="radio" id="nunca" name="data" value="nunca">
+                <label for="nunca">Nunca doei sangue</label><br><br>
+                <button type="submit">Enviar Formulário</button>
+            </form>
+        </section>
+    </main>
+    <footer>© Copyright 2022 - MedCompany</footer>
+</body>
