@@ -1,0 +1,286 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #eaeaea;
+    font-weight: bold;
+}
+
+header img {
+    width: 25px;
+}
+
+.topo {
+    width: 100%;
+    max-width: 950px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.topo p {
+    color: #5d15d1;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.dados {
+    background-image: url('imagens/bahia.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 720px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario {
+    background-color: #fff;
+}
+
+.box-formulario {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px 20px;
+}
+
+.box-formulario h2 {
+    font-size: 24px;
+    margin: 0 0 15px 0;
+    font-weight: bold;
+}
+
+.input-form {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.box-destino {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box-destino div {
+    width: 100%;
+    max-width: 440px;    
+}
+
+.orcamento {
+    width: 100%;
+    max-width: 950px;
+    height: 620px;
+}
+
+.box-orcamento {
+    width: 100%;
+    height: 30px;
+    background-color: #5d15d1;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.box-orcamento img {
+    width: 20px;
+}
+
+.box-orcamento p {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.cama-infantil {
+    width: 191px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cama-infantil div {
+    padding: 10px 0 0 0;
+}
+
+.hospedagem {
+    width: 100%;
+    max-width: 380px;
+    display: flex;
+    justify-content: space-between;    
+}
+
+form button {
+    background: #5d15d1;
+    color: #fff;
+    border: 0;
+    padding: 3px 10px;
+    font-size: 16px;
+}
+
+footer {
+    width: 100%;
+    height: 140px;
+    background: #5d15d1;
+}
+
+.box-rodape {
+    max-width: 950px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-rodape {
+    width: 15px;
+    margin-right: 10px;
+}
+
+.box-contato {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 10px;
+    padding: 12px 0;
+}
+
+.box-contato p {
+    color: #fff;
+    font-size: 12px;
+}
+
+.box {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 140px;
+}
+
+.box h4 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.locais {
+    max-width: 950px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.box-locais {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-cidades {
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tamanho-img {
+    width: 100%;
+    height: 99%;
+}
+
+.box-rio {
+    position: relative;
+    margin: 0 20px 0 0 ;
+}
+
+.box-img {
+    width: 475px;
+}
+
+.img-box-locais {
+    width: 100%;
+    height: 160px;
+}
+
+.box-manaus, .box-sao-paulo, .box-niteroi, .box-maranhao {
+    position: relative;
+    width: 230px;
+}
+
+.legenda-rio, .legenda-manaus, .legenda-sao-paulo, .legenda-niteroi, .legenda-maranhao {
+    width: 100%;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: -12px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.468);
+}
+
+.box-manaus, .box-sao-paulo {
+    margin: 0 19px 10px 0;
+}
+
+.box-maranhao, .box-niteroi {
+    margin: 0 19px 0 0;
+}
+
+.ofertas {
+    flex-wrap: wrap;
+}
+
+.ofertas .box-img {
+    width: 432px;
+    padding: 0;
+    margin: 0 19px 0 0;
+}
+
+.descricao {
+    width: 432px;
+    height: 60px;
+    background-color: #ffffff;
+    margin: 0 19px 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.descricao h5 {
+    padding: 10px ;
+    line-height: 25px;
+}
+
+.descricao p {
+    padding: 0;
+}
+
+@media (max-width: 480px) {
+    .topo {
+        justify-content: center;
+    }
+    .formulario {
+        text-align: center;
+    }
+    .input-form {
+        width: 60%;
+        text-align: center;
+    }
+}
