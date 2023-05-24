@@ -322,19 +322,25 @@ nav {
 }
 
 
-@media (max-width: 583px) {
+@media (max-width: 539px) {
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     .box-sobre2 {
         display: none;
     }
-    .card {
-        margin: 50px;
+    .box-1 {
+        padding: 15px;
+        text-align: center;
+        margin-top: 15px;
     }
-    .reactNative {
-        width: 300px;
+    .fundo-2 {
+        background-color: #00000000;
     }
     .topo {
         flex-wrap: wrap;
-        height: 110px;
+        height: 210px;
         padding: 10px;
     }
     .box-2 {
@@ -348,20 +354,21 @@ nav {
     .container-fundo {
         margin-bottom: 2160px;
     }
-    .box-sobre2 {
-        display: none;
-    }
     .contato {
-        margin-top: 600px;
+        margin-top: 100px;
+    }
+    .box-3 {
+        padding: 10px;
+        margin-top: 60px;
+    }
+    .box-sobre1 p {
+        margin-bottom: 10px;
     }
 }
 
-@media (min-width: 584px) and (max-width: 783px) {
+@media (min-width: 540px) and (max-width: 783px) {
     .box-sobre2 {
         display: none;
-    }
-    .card {
-        margin: 5px;
     }
     .box-sobre1 {
         width: 100%;
@@ -369,11 +376,10 @@ nav {
         margin-right: 0;
     }
     .fundo-2 {
-        height: 2040px;
+        height: 3000px;
     }
     .contato {
         height: 215px;
-        margin-top: 500px;
     }
 }
 
